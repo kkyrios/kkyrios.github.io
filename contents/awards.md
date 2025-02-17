@@ -1,13 +1,26 @@
-- National Scholarship of Graduate Student, 2024.
+### 奖学金
+- 2024 博世中国奖学金
+- 2024 本科生B等奖学金
+- 2023 绍裘奖学金
+- 2023 本科生C等奖学金
 
-- First-prize Scholarship of CUMT, 2024.
+### 学科竞赛
+- 2024 美国大学生数学建模竞赛MCM Finalist（特等奖提名，前2%）
+- 2024 全国大学生数学建模竞赛 省级二等奖
+- 2024 “火花杯”数学建模精英联赛 二等奖
+- 2023 全国大学生数学建模竞赛 省级二等奖
+- 2023 “杉树杯”数学建模精英赛 一等奖
+  
+### 校级评优
+- 2024 三好学生
+- 2024 优秀团员
+- 2023 三好学生
+- 2023 优秀团员
 
-- First-prize Scholarship of CUMT, 2023.
+### 课外活动
+- 2024 校运会男女混合4*100m 冠军
+- 2024 校长跑节5km团体赛 亚军
+- 2022 校长跑节5km 季军
+- 2022 电院新生杯辩论赛 冠军
+- 多次担任上马、上半马等赛事志愿者
 
-- Freshman Scholarship of CUMT, 2022.
-
-- Excellent Graduation Project of Jiangsu Province, 2022.
-
-- First-prize Enterprise Scholarship of CUMT, 2020.
-
-- First-prize Scholarship of CUMT, 2019.

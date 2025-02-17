@@ -4,6 +4,6 @@
 邮箱：<span>liiyumou@sjtu.edu.cn</span>
 
 #### 研究兴趣
-云计算、计算机系统等
+云计算、资源调度等
 
 
