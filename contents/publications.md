@@ -9,7 +9,7 @@
 
 #### SMORE: Enhancing GPU Utilization in Deep Learning Clusters by Serverless-based Co-location Scheduling
 
-**项目简介**：采用基于无服务器计算的框架优化深度学习集群中GPU的利用率，通过按需分配资源和灵活调度解决协同定位性能退化、SLO保证和冷启动问题。
+**项目简介**：采用基于无服务器计算的框架优化深度学习集群中GPU的利用率，通过按需分配资源和灵活调度解决协同定位性能退化、SLO违反和冷启动问题。
 
 **工作内容**：实现Prewarmer模块，使用LS-LSTM模型预测到来请求以减少冷启动，并与LSTH、HHP等调度方案对比。
 
