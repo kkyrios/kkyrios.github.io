@@ -1,12 +1,9 @@
-He is currently pursuing a Master's Degree in Computer Science, at SchoolSchool of Computer Science and Technology, China University of Mining and Technology, China.
+本科就读于上海交通大学电子信息与电气工程学院，计算机科学与技术专业永强班，预计2026年毕业。
 
-#### Email
-sli[at]cumt.edu.cn
+#### 联系方式
+**邮箱**：liiyumou@sjtu.edu.cn
 
-#### Education
-M.E., Computer Science and Technology, China University of Mining and Technology, 2022—2025 (expected).\
-B.E., Data Science and Big Data Technology, China University of Mining and Technology, 2018—2022.
+#### 研究兴趣
+云计算、计算机系统、人工智能等
 
-#### Research Interests
-Deep Learning, Artificial Intelligence Seismology, Mine Microseismic.
 
