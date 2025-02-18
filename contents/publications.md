@@ -1,13 +1,13 @@
 
-#### DPU池化项目
+#### DPU池化项目-核心成员
 
-**项目简介**：基于DPDK实现DPU资源池化以及动态的流迁移，以解决单张DPU带宽不足等性能瓶颈，实现弹性扩展。
+**项目简介**：EPCC实验室与华为合作的DPU池化项目，基于DPDK实现DPU资源池化以及动态的流迁移，以解决单张DPU带宽不足等性能瓶颈，实现弹性扩展。
 
 **工作内容**：完成了DPU相关工作调研报告，实现了VM-DPU映射的装箱算法并对多种算法进行了模拟评估。
 
 <br>
 
-#### SMORE: Enhancing GPU Utilization in Deep Learning Clusters by Serverless-based Co-location Scheduling
+#### SMORE: Enhancing GPU Utilization in Deep Learning Clusters by Serverless-based Co-location Scheduling-第三作者
 
 **项目简介**：采用基于无服务器计算的框架优化深度学习集群中GPU的利用率，通过按需分配资源和灵活调度解决协同定位性能退化、SLO违反和冷启动问题。
 
@@ -15,7 +15,7 @@
 
 <br>
 
-#### FAASHARE: Enabling Generic Low-Latency and SLO-Aware GPU Sharing in Serverless Computing
+#### FAASHARE: Enabling Generic Low-Latency and SLO-Aware GPU Sharing in Serverless Computing-第三作者
 
 **项目简介**：通过引入MSContainer、时空优先队列调度机制和贝叶斯优化实现一个针对无服务器计算的高效平台，旨在解决GPU资源利用低效、任务执行延迟高和SLO违反等问题。
 
