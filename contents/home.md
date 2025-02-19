@@ -4,7 +4,7 @@
 曾参与云计算资源调度工作并投稿论文，目前在EPCC实验室进行DPU池化相关工作。课内专业方向为人工智能与大数据。
 
 #### 联系方式
-邮箱：<span>liiyumou@sjtu.edu.cn</span>
+邮箱：liiyumou@sjtu.edu.cn
 <br>
 电话：138-8216-2193
 
