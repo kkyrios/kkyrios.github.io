@@ -34,7 +34,7 @@
 <div class="site-layout">
   <aside class="profile-sidebar" aria-label="Personal profile">
     {% assign profile = site.data.profile %}
-    <img class="profile-portrait" src="{{ profile.avatar | relative_url }}" alt="{{ profile.name_en }}" width="180" height="180">
+    <div class="profile-portrait"><div class="portrait-crop"><img src="{{ profile.avatar | relative_url }}" alt="{{ profile.name_en }}" width="180" height="180"></div></div>
     <div class="profile-details">
       <p class="profile-name">{{ profile.name_en | escape }}</p>
       <p class="profile-chinese" lang="zh-CN">{{ profile.name_zh | escape }}</p>
