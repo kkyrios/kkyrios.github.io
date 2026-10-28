@@ -1,0 +1,28 @@
+intro:
+  en: "Welcome to my personal homepage. This site is being updated; research, projects, and experience will be added soon."
+  zh: "欢迎来到我的个人主页。网站正在更新，研究、项目和个人经历将陆续补充。"
+sections:
+  - id: publications
+    title_en: "Publications"
+    title_zh: "研究与论文"
+    empty_en: "Research and selected publications will appear here."
+    empty_zh: "研究工作与代表论文将更新于此。"
+    entries: []
+  - id: projects
+    title_en: "Projects"
+    title_zh: "项目经历"
+    empty_en: "Selected projects, code, and demos will be added soon."
+    empty_zh: "项目介绍、开源代码与演示将陆续补充。"
+    entries: []
+  - id: experience
+    title_en: "Experience"
+    title_zh: "个人经历"
+    empty_en: "Education, research experience, and internships will be updated here."
+    empty_zh: "教育背景、研究经历与实习经历待更新。"
+    entries: []
+  - id: awards
+    title_en: "Honors & Awards"
+    title_zh: "荣誉奖励"
+    empty_en: "Selected honors and awards will be added soon."
+    empty_zh: "荣誉与获奖情况待更新。"
+    entries: []

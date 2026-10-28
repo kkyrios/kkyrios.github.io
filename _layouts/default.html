@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title | escape }} | Academic Homepage</title>
+  <meta name="description" content="{{ site.description | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:title" content="{{ site.title | escape }}">
+  <meta property="og:description" content="{{ site.description | escape }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ site.data.profile.avatar | absolute_url }}">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="{{ '/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/personal.css' | relative_url }}">
+  <script src="{{ '/assets/js/personal.js' | relative_url }}" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">{% include bilingual.html en="Skip to content" zh="跳至正文" %}</a>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="home-link" href="#about">{{ site.data.profile.name_en }}</a>
+    <nav aria-label="Main navigation">
+      <a href="#about">{% include bilingual.html en="About" zh="关于我" %}</a>
+      <a href="#publications">{% include bilingual.html en="Publications" zh="研究论文" %}</a>
+      <a href="#projects">{% include bilingual.html en="Projects" zh="项目经历" %}</a>
+      <a href="#experience">{% include bilingual.html en="Experience" zh="个人经历" %}</a>
+    </nav>
+    <button class="language-toggle" type="button" hidden aria-label="切换到中文">中文</button>
+  </div>
+</header>
+<div class="site-layout">
+  <aside class="profile-sidebar" aria-label="Personal profile">
+    {% assign profile = site.data.profile %}
+    <img class="profile-portrait" src="{{ profile.avatar | relative_url }}" alt="{{ profile.name_en }}" width="180" height="180">
+    <div class="profile-details">
+      <p class="profile-name">{{ profile.name_en | escape }}</p>
+      <p class="profile-chinese" lang="zh-CN">{{ profile.name_zh | escape }}</p>
+      {% if profile.affiliation_en != empty or profile.affiliation_zh != empty %}<p class="affiliation">{% include bilingual.html en=profile.affiliation_en zh=profile.affiliation_zh %}</p>{% endif %}
+      <ul class="profile-links">
+        <li><a href="{{ profile.github | escape }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub <span aria-hidden="true">↗</span></a></li>
+        {% if profile.email != empty %}<li><a href="mailto:{{ profile.email | escape }}">Email</a></li>{% endif %}
+        {% if profile.scholar != empty %}<li><a href="{{ profile.scholar | escape }}">Google Scholar</a></li>{% endif %}
+        {% if profile.cv != empty %}<li><a href="{{ profile.cv | relative_url }}">{% include bilingual.html en="Curriculum Vitae" zh="个人简历" %}</a></li>{% endif %}
+      </ul>
+      <p class="profile-note">{% include bilingual.html en="Personal academic homepage" zh="个人学术主页" %}</p>
+    </div>
+  </aside>
+  <main id="main" class="academic-content">{{ content }}</main>
+</div>
+<footer class="personal-footer">
+  <div><span>© {{ site.time | date: '%Y' }} {{ site.data.profile.name_en }}</span><span>{% include bilingual.html en="Last updated" zh="最近更新" %} · {{ site.data.profile.updated }}</span></div>
+  <p>Based on <a href="https://github.com/RayeRen/acad-homepage.github.io">AcadHomepage</a> · <a href="https://github.com/kkyrios/kkyrios.github.io">Source</a></p>
+</footer>
+</body>
+</html>

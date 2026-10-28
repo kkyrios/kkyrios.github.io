@@ -1,0 +1,19 @@
+title: "Yumou Liu · 刘禹谋"
+description: "Personal academic homepage of Yumou Liu."
+url: "https://kkyrios.github.io"
+baseurl: ""
+repository: "kkyrios/kkyrios.github.io"
+lang: en
+timezone: Asia/Shanghai
+include: ["_pages"]
+exclude: ["docs", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "vendor", "node_modules"]
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+kramdown:
+  input: GFM
